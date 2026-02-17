@@ -10,6 +10,18 @@
 </head>
 <body>
 
+  <div class="container mt-4">
+    <div class="dropdown">
+      <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Page Navigation
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="first.html">First Page</a></li>
+        <li><a class="dropdown-item" href="second.html">Second Page</a></li>
+      </ul>
+    </div>
+  </div>
+
   <div class="container mt-5">
     <h2 class="text-primary">Responsive Trees</h2>
     <p>These images resize with the browser window.</p>
@@ -59,42 +71,12 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <th scope="row">A</th>
-          <td>Ash</td>
-          <td>Amazon</td>
-          <td>Acadia</td>
-        </tr>
-        <tr>
-          <th scope="row">B</th>
-          <td>Birch</td>
-          <td>Brahmaputra</td>
-          <td>Badlands</td>
-        </tr>
-        <tr>
-          <th scope="row">C</th>
-          <td>Cedar</td>
-          <td>Colorado</td>
-          <td>Cuyahoga</td>
-        </tr>
-        <tr>
-          <th scope="row">D</th>
-          <td>Dogwood</td>
-          <td>Danube</td>
-          <td>Denali</td>
-        </tr>
-        <tr>
-          <th scope="row">E</th>
-          <td>Elm</td>
-          <td>Euphrates</td>
-          <td>Everglades</td>
-        </tr>
-        <tr>
-          <th scope="row">F</th>
-          <td>Fir</td>
-          <td>Fraser</td>
-          <td>Fiordland</td>
-        </tr>
+        <tr><th scope="row">A</th><td>Ash</td><td>Amazon</td><td>Acadia</td></tr>
+        <tr><th scope="row">B</th><td>Birch</td><td>Brahmaputra</td><td>Badlands</td></tr>
+        <tr><th scope="row">C</th><td>Cedar</td><td>Colorado</td><td>Cuyahoga</td></tr>
+        <tr><th scope="row">D</th><td>Dogwood</td><td>Danube</td><td>Denali</td></tr>
+        <tr><th scope="row">E</th><td>Elm</td><td>Euphrates</td><td>Everglades</td></tr>
+        <tr><th scope="row">F</th><td>Fir</td><td>Fraser</td><td>Fiordland</td></tr>
       </tbody>
     </table>
   </div>
@@ -104,24 +86,10 @@
   <div class="container mt-5 mb-5">
     <h2 class="text-dark">Letter Navigation</h2>
     <p>Categorized groups using a toolbar.</p>
-    
     <div class="btn-toolbar" role="toolbar" aria-label="Tree alphabet navigation toolbar">
-      
-      <div class="btn-group me-2" role="group" aria-label="Image-backed letters">
-        <button type="button" class="btn btn-success">A</button>
-        <button type="button" class="btn btn-success">B</button>
-        <button type="button" class="btn btn-success">C</button>
-      </div>
-
-      <div class="btn-group me-2" role="group" aria-label="Alert status letters">
-        <button type="button" class="btn btn-warning">D</button>
-        <button type="button" class="btn btn-warning">E</button>
-      </div>
-
-      <div class="btn-group" role="group" aria-label="Danger status letter">
-        <button type="button" class="btn btn-danger">F</button>
-      </div>
-      
+      <div class="btn-group me-2" role="group"><button class="btn btn-success">A</button><button class="btn btn-success">B</button><button class="btn btn-success">C</button></div>
+      <div class="btn-group me-2" role="group"><button class="btn btn-warning">D</button><button class="btn btn-warning">E</button></div>
+      <div class="btn-group" role="group"><button class="btn btn-danger">F</button></div>
     </div>
   </div>
 
